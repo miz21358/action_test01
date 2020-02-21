@@ -14,5 +14,5 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         LD_ACCESS_TOKEN: ${{ secrets.LD_ACCESS_TOKEN }}
-        LD_PROJ_KEY: default
+        LD_PROJ_KEY: ${{ secrets.LD_PROJECT_KEY }}
         

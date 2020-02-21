@@ -1,0 +1,8 @@
+{
+    "key": "UNIQUE IDENTIFIER",
+    "firstName": "Bob",
+    "lastName": "Loblaw",
+    "custom": {
+        "groups": "beta_testers"
+    }
+}
