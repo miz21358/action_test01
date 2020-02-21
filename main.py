@@ -12,9 +12,6 @@ def main():
     show_feature = ldclient.get().variation("test-flg", user, False)
     print("show_feature %s" % show_feature)
 
-    state = ldclient.get().all_flags_state(user)
-    print("state %s" % state.keys())
-
     if show_feature:
         print("Showing your feature")
     else:
