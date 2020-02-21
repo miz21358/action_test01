@@ -15,4 +15,6 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         LD_ACCESS_TOKEN: ${{ secrets.LD_ACCESS_TOKEN }}
         LD_PROJ_KEY: ${{ secrets.LD_PROJECT_KEY }}
+    - name: test main
       run: python main.py
+
